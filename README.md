@@ -1,6 +1,6 @@
-# YouTube Channel Video Info Scraper
+# YouTube動画のスクレイピング
 
-このプロジェクトは、指定したYouTubeチャンネルの最新の動画（生放送を除く）10個について、そのタイトル、再生回数、高評価数、動画時間を取得し、CSV形式で出力するPythonスクリプトです。
+指定したYouTubeチャンネルの最新の動画10個の、タイトル、再生回数、高評価数、動画時間を取得し、CSV形式で出力するコードです。
 
 ## 使い方
 
@@ -20,9 +20,6 @@
 
 - google-api-python-client
 - isodate
-
-これらのライブラリは、次のコマンドでインストールできます：
-pip install --upgrade google-api-python-client isodate
 
 ## 注意
 
